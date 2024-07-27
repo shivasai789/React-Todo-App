@@ -1,0 +1,89 @@
+.todo-bg-container {
+  margin-top: 10px;
+}
+
+.todo-header {
+  background-color: #ecedee;
+  height: 80px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.search-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0px 10px 0px 10px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.aside-card-container {
+  width: 90%;
+  height: 115px;
+  background-color: #ecedee;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-btn-width {
+  width: 90%;
+}
+
+@media all and (max-width: 768px) {
+  .aside-card-container {
+    width: 100%;
+  }
+  .add-btn-width {
+    width: 100%;
+  }
+}
+
+.to-do-container {
+  background-color: #ecedee;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  min-height: 80vh;
+}
+
+.todo-count-container {
+  background-color: #c6c6c6;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #717171;
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  left: 8px;
+  top: 3px;
+}
+
+.p-dialog-header {
+  padding-bottom: 0px;
+}
+
+.todo-name-input {
+  width: 100%;
+  /* border: none;
+    outline: none; */
+}
